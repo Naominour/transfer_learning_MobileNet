@@ -1,15 +1,16 @@
 # Transfer Learning with MobileNetV1
 
-<img src="images\image.webp" style="width:300px;">
-
-This project uses transfer learning with MobileNetV1 to create an Alpaca/Not Alpaca image classifier. The project demonstrates the application of transfer learning using a pre-trained Convolutional Neural Network (CNN) to classify images with high accuracy.
+<div align="center">
+  <img src="images\image.webp" alt="Alpaca Image" style="width:500px;">
+</div>
 
 ![TensorFlow](https://img.shields.io/badge/Skill-TensorFlow-yellow)
-![Neural Network](https://img.shields.io/badge/Skill-Neural%20Network-blueviolet)
 ![Transfer Learning](https://img.shields.io/badge/Skill-Transfer%20Learning-green)
 ![Fine-tuning](https://img.shields.io/badge/Skill-Fine%20tuning-orange)
 ![Image Data Augmentation](https://img.shields.io/badge/Skill-Image%20Data%20Augmentation-brightgreen)
 ![Python Programming](https://img.shields.io/badge/Skill-Python%20Programming-blue)
+
+This project uses transfer learning with MobileNetV1 to create an Alpaca/Not Alpaca image classifier. The project demonstrates the application of transfer learning using a pre-trained Convolutional Neural Network (CNN) to classify images with high accuracy.
 
 ```bash
 ├── Transfer_learning_with_MobileNet_v1.ipynb     # Containing the code for training and evaluating the Alpaca/Not Alpaca classifier.
