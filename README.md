@@ -1,14 +1,15 @@
 # Transfer Learning with MobileNetV1
 
 <div align="center">
-  <img src="images\image.webp" alt="Alpaca Image" style="width:500px;">
-</div>
+  <img src="images\image.webp" alt="Alpaca Image" style="width:400px;">
 
-![TensorFlow](https://img.shields.io/badge/Skill-TensorFlow-yellow)
-![Transfer Learning](https://img.shields.io/badge/Skill-Transfer%20Learning-green)
-![Fine-tuning](https://img.shields.io/badge/Skill-Fine%20tuning-orange)
-![Image Data Augmentation](https://img.shields.io/badge/Skill-Image%20Data%20Augmentation-brightgreen)
-![Python Programming](https://img.shields.io/badge/Skill-Python%20Programming-blue)
+  ![TensorFlow](https://img.shields.io/badge/Skill-TensorFlow-yellow)
+  ![Transfer Learning](https://img.shields.io/badge/Skill-Transfer%20Learning-green)
+  ![Fine-tuning](https://img.shields.io/badge/Skill-Fine%20tuning-orange)
+  ![Image Data Augmentation](https://img.shields.io/badge/Skill-Image%20Data%20Augmentation-brightgreen)
+  ![Python Programming](https://img.shields.io/badge/Skill-Python%20Programming-blue)
+
+</div>
 
 This project uses transfer learning with MobileNetV1 to create an Alpaca/Not Alpaca image classifier. The project demonstrates the application of transfer learning using a pre-trained Convolutional Neural Network (CNN) to classify images with high accuracy.
 
@@ -70,4 +71,8 @@ The model was trained over 10 epochs, and the performance metrics were recorded 
 
 The final model achieved a high validation accuracy of approximately 96.92%, demonstrating its effectiveness in classifying Alpaca and Not Alpaca images.
 
-<img src="images\result.png" style="width:400px;">
+
+<div align="center">
+  <img src="images\result.png" style="width:400px;">
+
+</div>
