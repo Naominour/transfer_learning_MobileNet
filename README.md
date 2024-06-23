@@ -1,17 +1,15 @@
 # Transfer Learning with MobileNetV1
 
-Welcome to the **Improvise a Jazz Solo with an LSTM Network** project! This repository demonstrates the use of a Long Short-Term Memory **(LSTM)** network to generate jazz music solos. This project builds upon existing work, incorporating enhancements and additional functionalities.
+<img src="images\image.webp" style="width:300px;">
+
+This project uses transfer learning with MobileNetV1 to create an Alpaca/Not Alpaca image classifier. The project demonstrates the application of transfer learning using a pre-trained Convolutional Neural Network (CNN) to classify images with high accuracy.
 
 ![TensorFlow](https://img.shields.io/badge/Skill-TensorFlow-yellow)
 ![Neural Network](https://img.shields.io/badge/Skill-Neural%20Network-blueviolet)
 ![Transfer Learning](https://img.shields.io/badge/Skill-Transfer%20Learning-green)
 ![Fine-tuning](https://img.shields.io/badge/Skill-Fine%20tuning-orange)
 ![Image Data Augmentation](https://img.shields.io/badge/Skill-Image%20Data%20Augmentation-brightgreen)
-![Python Programming](https://img.shields.io/badge/Skill-Python%20Programming-blueviolet)
-
-## Project Overview
-This project uses transfer learning with MobileNetV1 to create an Alpaca/Not Alpaca image classifier. The project demonstrates the application of transfer learning using a pre-trained Convolutional Neural Network (CNN) to classify images with high accuracy.
-<img src="images\image.webp" style="width:300px;">
+![Python Programming](https://img.shields.io/badge/Skill-Python%20Programming-blue)
 
 ```bash
 ├── Transfer_learning_with_MobileNet_v1.ipynb     # Containing the code for training and evaluating the Alpaca/Not Alpaca classifier.
@@ -21,10 +19,10 @@ This project uses transfer learning with MobileNetV1 to create an Alpaca/Not Alp
 ```
 
 ## Frameworks and Libraries
-![TensorFlow](https://img.shields.io/badge/TensorFlow-orange.svg?style=flat&logo=tensorflow)
-![Keras](https://img.shields.io/badge/Keras-red.svg?style=flat&logo=keras)
-![NumPy](https://img.shields.io/badge/NumPy-blue.svg?style=flat&logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-green.svg?style=flat&logo=matplotlib)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16.1-orange.svg?style=flat&logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-3.3.3-red.svg?style=flat&logo=keras)
+![NumPy](https://img.shields.io/badge/NumPy-1.26.4-blue.svg?style=flat&logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.6.2-green.svg?style=flat&logo=matplotlib)
 
 ## Project Architecture
 1. **Data Preparation**:
@@ -62,9 +60,12 @@ pip install tensorflow matplotlib numpy
 
 ## Results
 The model was trained over 10 epochs, and the performance metrics were recorded at each epoch. 
-**Training Accuracy:** The training accuracy improved significantly over the epochs, starting from 66.03% in epoch 5 and reaching 94.66% by epoch 10.
-**Validation Accuracy:** The validation accuracy also showed substantial improvement, with a peak at 96.92% in epoch 9.
-**Loss:** Both training and validation losses decreased over time, indicating that the model was learning effectively. However, a slight increase in validation loss in the last epoch suggests potential overfitting.
+**Training Accuracy:** 
+- The training accuracy improved significantly over the epochs, starting from 66.03% in epoch 5 and reaching 94.66% by epoch 10.
+**Validation Accuracy:**
+- The validation accuracy also showed substantial improvement, with a peak at 96.92% in epoch 9.
+**Loss:** 
+- Both training and validation losses decreased over time, indicating that the model was learning effectively. However, a slight increase in validation loss in the last epoch suggests potential overfitting.
 
 The final model achieved a high validation accuracy of approximately 96.92%, demonstrating its effectiveness in classifying Alpaca and Not Alpaca images.
 
