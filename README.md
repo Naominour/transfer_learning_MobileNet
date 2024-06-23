@@ -5,7 +5,7 @@ Welcome to the **Improvise a Jazz Solo with an LSTM Network** project! This repo
 ![TensorFlow](https://img.shields.io/badge/Skill-TensorFlow-yellow)
 ![Neural Network](https://img.shields.io/badge/Skill-Neural%20Network-blueviolet)
 ![Transfer Learning](https://img.shields.io/badge/Skill-Transfer%20Learning-green)
-![Fine-tuning](https://img.shields.io/badge/Skill-Fine-tuning-orange)
+![Fine-tuning](https://img.shields.io/badge/Skill-Fine%20tuning-orange)
 ![Image Data Augmentation](https://img.shields.io/badge/Skill-Image%20Data%20Augmentation-brightgreen)
 ![Python Programming](https://img.shields.io/badge/Skill-Python%20Programming-blueviolet)
 
