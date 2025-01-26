@@ -1,4 +1,4 @@
-# Transfer Learning with MobileNetV1
+# Image Classification Using Transfer Learning with MobileNetV1
 
 <div align="center">
   <img src="images\image.webp" alt="Alpaca Image" style="width:400px;">
